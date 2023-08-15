@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 146, 162);
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #luasButton,
+  #kelilingButton {
+    background-color: rgb(246, 148, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #luasButton:hover,
+  #kelilingButton:hover {
+    background-color: rgb(138, 0, 0);
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #hitungHasilLuas,
+  #hitungHasilKeliling {
+    background-color: rgb(138, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .centered-output {
+    text-align: center;
+  }
+  
+  .container-hasil {
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+  }
